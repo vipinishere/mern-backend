@@ -19,7 +19,7 @@ mongoose
   })
   .then(() => {
     console.log("connected successfully!");
-    app.listen(process.env.PORT || 8000, (err) => {
+    app.listen(process.env.PORT, (err) => {
       if (err) {
         console.log(err);
       } else {
